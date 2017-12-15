@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="ngJogo">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script src="scripts/app.js"></script>
+        <link rel="stylesheet" href="/home/matheus/Documents/JogoDaVelha/Jogo-da-Velha/jogo-da-velha/index.css">
+        <title>Jogo Da Velha</title>
+    </head>
+
+    <body ng-controller="app">
+        <div class="div1">
+            <div class="areas" ng-click="inserir(0,0)">
+                {{matriz[0][0]}}
+            </div>
+            <div class="areas" ng-click="inserir(0,1)">
+                {{matriz[0][1]}}
+            </div>
+            <div class="areas" ng-click="inserir(0,2)">
+                {{matriz[0][2]}}
+            </div>
+        </div>
+        <div class="div2">
+            <div class="areas2" ng-click="inserir(1,0)">
+                {{matriz[1][0]}}
+            </div>
+            <div class="areas" ng-click="inserir(1,1)">
+                {{matriz[1][1]}}
+            </div>
+            <div class="areas" ng-click="inserir(1,2)">
+                {{matriz[1][2]}}
+            </div>
+            <button ng-click="reset()">
+                    Reiniciar o Jogo
+            </button>
+        </div>
+        <div class="div3">
+            <div class="areas3" ng-click="inserir(2,0)">
+                {{matriz[2][0]}}
+            </div>
+            <div class="areas" ng-click="inserir(2,1)">
+                {{matriz[2][1]}}
+            </div>
+            <div class="areas" ng-click="inserir(2,2)">
+                {{matriz[2][2]}}
+            </div>
+        </div>
+    </body>
+
+</html>

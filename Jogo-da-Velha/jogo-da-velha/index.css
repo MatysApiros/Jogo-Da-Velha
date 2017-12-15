@@ -1,0 +1,56 @@
+.div1{
+    float: left;
+}
+
+.div2{
+    float: left;
+    clear: left;
+    position: relative;
+}
+
+.div3{
+    float: left;
+    clear: left;
+}
+
+.areas{
+    float: left;
+    width: 250px;
+	height: 250px;
+	line-height: 250px;
+    border: 3px solid black;
+    background-color: #c9d1dc;
+    text-align: center;
+    font-size: 50px;
+}
+
+.areas2{
+    float: left;
+    clear: left;
+    width: 250px;
+	height: 250px;
+	line-height: 250px;
+    border: 3px solid black;
+    background-color: #c9d1dc;
+    text-align: center;
+    font-size: 50px;
+}
+
+.areas3{
+    float: left;
+    clear: left;
+    width: 250px;
+	height: 250px;
+	line-height: 250px;
+    border: 3px solid black;
+    background-color: #c9d1dc;
+    text-align: center;
+    font-size: 50px;
+}
+
+button{
+    float: left;
+    top: 45%;
+    left: 110%;
+    position: absolute;
+}
